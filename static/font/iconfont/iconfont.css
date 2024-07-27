@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4358163 */
+  src: url('@/static/font/iconfont/iconfont.woff2?t=1709992212713') format('woff2'),
+       url('@/static/font/iconfont/iconfont.woff?t=1709992212713') format('woff'),
+       url('@/static/font/iconfont/iconfont.ttf?t=1709992212713') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-a-zhuhe1:before {
+  content: "\e64b";
+}
+
+.icon-tiaocha:before {
+  content: "\e646";
+}
+
+.icon-shipincopy:before {
+  content: "\e60c";
+}
+
+.icon-sousuo:before {
+  content: "\e60b";
+}
+
+.icon-quwei:before {
+  content: "\e6c6";
+}
+
+.icon-shiwu:before {
+  content: "\e603";
+}
+
+.icon-daka:before {
+  content: "\f28e";
+}
+
+.icon-icon-shezhen:before {
+  content: "\e60a";
+}
+
+.icon-paixingbang:before {
+  content: "\e6c5";
+}
+
+.icon-shoucang1:before {
+  content: "\e86d";
+}
+
+.icon-zan:before {
+  content: "\e870";
+}
+
+.icon-shoucang:before {
+  content: "\e617";
+}
+
+.icon-pinglun:before {
+  content: "\e6ad";
+}
+
+.icon-icon:before {
+  content: "\e651";
+}
+
+.icon-fenxiang:before {
+  content: "\e626";
+}
+
+.icon-shijian:before {
+  content: "\e8a9";
+}
+
+.icon-shouji:before {
+  content: "\e601";
+}
+
+.icon-lingshi:before {
+  content: "\e618";
+}
+
+.icon-shuimian:before {
+  content: "\e610";
+}
+
+.icon-huaixiguan:before {
+  content: "\edfc";
+}
+
+.icon-yangsheng:before {
+  content: "\e6c9";
+}
+
+.icon-weizhi:before {
+  content: "\e608";
+}
+
+.icon-remen:before {
+  content: "\e62c";
+}
+
+.icon-shuoshuo:before {
+  content: "\e600";
+}
+
+.icon-wuxingbie:before {
+  content: "\e67d";
+}
+
+.icon-idea-full:before {
+  content: "\e861";
+}
+
+.icon-fanhui1:before {
+  content: "\e625";
+}
+
+.icon-fenlei:before {
+  content: "\e811";
+}
+
+.icon-fabu1:before {
+  content: "\e616";
+}
+
+.icon-zhankai:before {
+  content: "\e68b";
+}
+
+.icon-fanhui:before {
+  content: "\e6a8";
+}
+
+.icon-zhiding:before {
+  content: "\e62b";
+}
+
+.icon-jiazai:before {
+  content: "\e607";
+}
+
+.icon-fabu:before {
+  content: "\e615";
+}
+
+.icon-bianji:before {
+  content: "\e8ac";
+}
+

@@ -1,0 +1,201 @@
+{
+	// 配置easycom组件模式
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //使用自定头部栏
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "养趣-年轻化社区",
+				//使用自定头部栏
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //使用自定头部栏
+			}
+		},
+		{
+			"path": "pages/news_forum/news_forum",
+			"style": {
+				"navigationBarTitleText": "论坛",
+				"enablePullDownRefresh": false,
+				// "backgroundColor":"#A9DEE2",
+				// "backgroundTextStyle":"light",
+				"navigationStyle": "custom" //使用自定头部栏
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //使用自定头部栏
+			}
+		},
+		{
+			"path": "pages/userInfos/userInfos",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //使用自定头部栏
+			}
+		},
+		{
+			"path": "pages/comments/comments",
+			"style": {
+				"navigationBarTitleText": "养趣正文",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //使用自定头部栏
+			}
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //使用自定头部栏
+			}
+		},
+		{
+			"path": "pages/searchAll/searchAll",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //使用自定头部栏
+			}
+		},
+		{
+			"path": "pages/searchPassage/searchPassage",
+			"style": {
+				"navigationBarTitleText": "搜索文章",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //使用自定头部栏
+			}
+		},
+		{
+			"path": "pages/passageInfo/passageInfo",
+			"style": {
+				"navigationBarTitleText": "养趣原创",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //使用自定头部栏
+			}
+		}
+	],
+	//分包
+	"subPackages": [
+		{
+			"root": "subPages",
+			"pages": [
+				{
+					"path": "tongueDiagnosis/tongueDiagnosis",
+					"style": {
+						"navigationBarTitleText": "AI舌诊",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom" //使用自定头部栏
+					}
+				},
+				{
+					"path": "diagnoseResult/diagnoseResult",
+					"style": {
+						"navigationBarTitleText": "健康状态报告",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom" //使用自定头部栏
+					}
+				},
+				{
+					"path": "AIchat/AIchat",
+					"style": {
+						"navigationBarTitleText": "智能客服",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom" //使用自定头部栏
+					}
+				},
+				{
+					"path" : "exercise/exercise",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false,
+						"navigationStyle": "custom" //使用自定头部栏
+					}
+				},
+				{
+					"path" : "searchVideo/searchVideo",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false,
+						"navigationStyle": "custom" //使用自定头部栏
+					}
+				},
+				{
+					"path" : "questionnaire/questionnaire",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false,
+						"navigationStyle": "custom" //使用自定头部栏
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "养趣-年轻化社区",
+		"navigationBarBackgroundColor": "#A9DEE2",
+		"backgroundColor": "#ffffff",
+		"backgroundTextStyle": "dark",
+		"usingComponents": {
+			"custom": "/components/myNavigationBar/myNavigationBar"
+		}
+
+	},
+	"tabBar": {
+		"color": "#3D3D3D",
+		"selectedColor": "#70BCB2",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/src/home_unselected.png",
+				"selectedIconPath": "static/src/home_selected.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/community/community",
+				"iconPath": "static/src/community_unselected.png",
+				"selectedIconPath": "static/src/community_selected.png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/news_forum/news_forum",
+				"iconPath": "static/src/newsForum_unselected.png",
+				"selectedIconPath": "static/src/newsForum_selected.png",
+				"text": "论坛"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/src/user_unselected.png",
+				"selectedIconPath": "static/src/user_selected.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
